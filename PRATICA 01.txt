@@ -1,0 +1,148 @@
+Nombre: Luis Eduardo Castillo De Jesus.
+Matricula: 202010987
+
+
+
+
+#1Almacenar en una variable el nombre de una persona y al final muestre en consola el mensaje:
+ “Bienvenido [NOMBRE COMPLETO]”.
+
+print("Hola! ¿Cómo se llama?")
+nombre = input()
+print(f"Bienvenido, {nombre}")
+--------------------------------------------------------------------------------------------------
+#2-Evalué si un número es PAR o IMPAR y muestre en consola el mensaje
+
+print('**********************')
+print('*Introduzca un numero*')
+print('**********************')
+number = 0
+
+number = int(input(f'Introduzca un numero --->'))
+
+if number%2 == 0:
+  print ('El numero ',number,'es par')
+else:
+  print('El numero',number, 'es impar')
+
+--------------------------------------------------------------------------------------------------
+#3-Almacené dos números y evalué si el primero es mayor que el segundo. 
+El resultado debe mostrarlo por consola.
+
+
+primer_numero = int(input(f'Introduzca un primer numero ->'))   
+segundo_numero = int(input(f'introduzca un segundo numero ->'))
+
+if segundo_numero < primer_numero :
+  print (f'{primer_numero} es menor a {segundo_numero}')
+
+else:
+  if segundo_numero > primer_numero :
+    print (f'{segundo_numero} es mayor a {primer_numero}')
+--------------------------------------------------------------------------------------------------
+#4 Mostrar el tipo de dato que retorna la expresión 23 < 18.
+
+warwick = 23 <18
+print(type(warwick))
+--------------------------------------------------------------------------------------------------
+#5-Convierte dólares a peso con la tasa del banco de reservas (18-01-2021).
+
+dollar = 57.00
+peso = int(input('Introduzaca la cantidad de dollar que desee cambiar'))
+
+print( dollar * peso)
+
+--------------------------------------------------------------------------------------------------
+#6-Convierta grados Celsius a Fahrenheit.
+# F = (9/5) C + 32
+
+c = int(input('Intruduzca la temperatura a cambiar →'))
+f = 9/5 * c + 32
+
+print(f"su temperatura a Fahrenheit es ->{f}")
+
+--------------------------------------------------------------------------------------------------
+#7-Almacene cuatro notas 90,95,77, 92 y las promedie. Al final debe decir su calificación en letras A, B,C,D ó F.
+
+nota1 = int(input (f'Introduzca du nota 1 ->'))
+nota2 = int(input (f'Introduzca du nota 2 ->'))
+nota3 = int(input (f'Introduzca du nota 3 ->'))
+nota4 = int(input (f'Introduzca du nota 4 ->'))
+
+notas = nota1+nota2+nota3+nota4
+promedio = 4
+
+calificación = notas/promedio
+
+if calificación > 90 and calificación < 100:
+  print ('Su calificación es A')
+else:
+  if calificación > 80 and calificación < 90:
+    print ('Su calificación es B')
+  if calificación > 70 and calificación < 80:
+    print ('Su calificación es C')
+  if calificación < 70:
+    print('Has sacado F reprobo materia')
+
+--------------------------------------------------------------------------------------------------
+#8-Crear un programa que diga el resultado de restar 92345 y 67890. 
+
+res = 92345
+rest = 67890
+
+print (res-rest)
+--------------------------------------------------------------------------------------------------
+
+#9-Crear un programa que calcule el resto de la división de 301 entre 3. 
+
+d = 301/3
+
+print (d)
+--------------------------------------------------------------------------------------------------
+#10 Calcular el resultado de ((20+5) % 6 )
+
+cal = ((20+5) % 6 )
+
+print ( cal )
+
+--------------------------------------------------------------------------------------------------
+
+#11 Calcular el resultado de 2 + 10 / 5 * 2 - 7 % 1
+
+lw = (2 + 10 / 5 * 2 - 7 % 1 )
+
+print (lw)
+
+--------------------------------------------------------------------------------------------------
+#12-Crea un programa que calcule el resto de dividir 3784 entre 16, usando variables. 
+
+div = 3784
+res = 16
+
+print (div/res)
+
+--------------------------------------------------------------------------------------------------
+
+#13-Crea un programa que calcule la suma de 285 y 1396, usando variables. 
+
+w = 285 
+l = 1396 
+
+print (w+l)
+
+--------------------------------------------------------------------------------------------------
+#14-Crea un programa que calcule el producto de dos números introducidos por el usuario. 
+
+print ("🡣🡣 Introduzca el primer num que piense 🡣🡣")
+
+primernum = int(input())
+
+print ("🡣🡣 Introduzca el segundo num que piense 🡣🡣")
+
+segundonum = int(input())
+
+print ("Su suma es")
+
+print (primernum * segundonum)
+
+

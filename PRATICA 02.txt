@@ -1,0 +1,6 @@
+Cada link lo llevara al ejercicio realizado en replit, me lo encuentro mas rapido asi.
+
+EJERCICIO 1: https://repl.it/@EduardoCastill4/Numero-indeterminado#main.py
+EJERCICIO 2: https://repl.it/@EduardoCastill4/Tarea-2#main.py
+EJERCICIO 3: https://repl.it/@EduardoCastill4/mULTIPLO-DE-5-ENTRE-1-Y-500#main.py
+EJERCICIO 4: https://repl.it/@EduardoCastill4/SEGURO-MEDICO#main.py
